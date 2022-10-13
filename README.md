@@ -1,1 +1,5 @@
 # Python-Profiling
+
+Profiling python script, both based on memory usage and time to see how well it is working and if there is room to improve it.
+
+Profiling the python script, both based on memory usage and time, is a task that you may need to do before delivering your code for your industrial project, which is necessary to work efficiently on the company's systems. Speed and memory usage are major factors in deciding the quality of the code. In python, it is possible to see the performance of different parts of the code based on memory and time. In this script, I showed how to use memory_profiler and time profiler to analyze your code. First, you need to install the package with pip install memory_profiler for the memory profiler. For time profiling, all you need to do is use the function I wrote in line 49 and call it like what I did on top of example1(), and it will also profile all the subfunctions. For memory profiling, after importing the proper library, you need to put it on top of each function that you want to analyze, and it will show you the memory usage of that function in detail.
